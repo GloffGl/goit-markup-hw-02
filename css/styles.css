@@ -1,0 +1,15 @@
+body {
+  font-family: 'roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+ol,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #4d5ae5;
+}
