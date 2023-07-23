@@ -1,15 +1,84 @@
 body {
-  font-family: 'roboto', sans-serif;
+  font-family: 'roboto', 'sans-serif';
   color: #2e2f42;
   background-color: #fff;
 }
-ol,
-li {
-  list-style-type: none;
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --white: #fff;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --slate: #434455;
 }
 a {
-  text-decoration: none;
+  text-decoration-line: none;
 }
+ul {
+  list-style-type: none;
+}
+
 .logo {
-  color: #4d5ae5;
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 44px;
+}
+.logo2 {
+  color: var(--navyblue);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
+}
+.link {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  color: black;
+}
+.address-link {
+  color: var(--slate);
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.address-link:hover {
+  color: var(--iris);
+}
+
+.button {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.button:hover {
+  color: var(--slate);
+  cursor: pointer;
+}
+.button:focus {
+  color: var(--iris);
+}
+.project-text {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.position-name {
+  color: var(--slate);
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }

@@ -4,111 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
 
     <header>
-      <nav>
-        <a href="./portfolio.html"><span class="logo">Web</span>Studio</a>
-        <ul>
+      <nav class="nav-link">
+        <a href="./portfolio.html" class="logo"
+          >Web<span class="logo2">Studio</span></a
+        >
+        <ul class="top-link">
           <li>
-            <a href="studio">Studio</a>
+            <a class="link" href="#studio">Studio</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a class="link" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#contacts">Contacts</a>
+            <a class="link" href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
 
       <!-- phone,email -->
 
-      <address>
+      <address class="address-top">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
-    <!-- link -->
+    <!-- buttons -->
 
-    <section>
-      <ul>
+    <section class="sections-buttons">
+      <ul class="buttons">
         <li>
-          <button type="button">All</button>
+          <button class="button" type="button">All</button>
         </li>
         <li>
-          <button type="button">Web Site</button>
+          <button class="button" type="button">Web Site</button>
         </li>
         <li>
-          <button type="button">App</button>
+          <button class="button" type="button">App</button>
         </li>
         <li>
-          <button type="button">Design</button>
+          <button class="button" type="button">Design</button>
         </li>
         <li>
-          <button type="button">Marketing</button>
+          <button class="button" type="button">Marketing</button>
         </li>
       </ul>
     </section>
     <!-- row 1 -->
 
-    <section>
-      <ul>
+    <section class="project1">
+      <ul class="project1-position">
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
-              src="./images/row 1/img.jpg"
+              src="./images/row1/img.jpg"
               alt="bank application"
               width="360"
               height="300"
             />
           </a>
-          <h4>Banking App Interface Concept</h4>
-          <p>App</p>
+          <h4 class="project-text">Banking App Interface Concept</h4>
+          <p class="position-name">App</p>
         </li>
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
-              src="./images/row 1/img1.jpg"
+              src="./images/row1/img1.jpg"
               alt="mobile qr code"
               width="360"
               height="300"
             />
           </a>
-          <h4>Cashless Payment</h4>
-          <p>Marketing</p>
+          <h4 class="project-text">Cashless Payment</h4>
+          <p class="position-name">Marketing</p>
         </li>
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
-              src="./images/row 1/img2.jpg"
+              src="./images/row1/img2.jpg"
               alt="mobile and phone"
               width="360"
               height="300"
             />
           </a>
-          <h4>Meditation Ap</h4>
-          <p>App</p>
+          <h4 class="project-text">Meditation Ap</h4>
+          <p class="position-name">App</p>
         </li>
       </ul>
     </section>
     <!-- row 2 -->
 
-    <section>
-      <ul>
+    <section class="project2">
+      <ul class="project2-position">
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
               src="./images/row2/img.jpg"
               alt="mobile taxi"
@@ -116,11 +126,11 @@
               height="300"
             />
           </a>
-          <h4>Taxi Service</h4>
-          <p>Marketing</p>
+          <h4 class="project-text">Taxi Service</h4>
+          <p class="position-name">Marketing</p>
         </li>
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
               src="./images/row2/img1.jpg"
               alt="mobile illustration"
@@ -128,11 +138,11 @@
               height="300"
             />
           </a>
-          <h4>Screen Illustrations</h4>
-          <p>Design</p>
+          <h4 class="project-text">Screen Illustrations</h4>
+          <p class="position-name">Design</p>
         </li>
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
               src="./images/row2/img2.jpg"
               alt="online courses"
@@ -140,17 +150,17 @@
               height="300"
             />
           </a>
-          <h4>Online Courses</h4>
-          <p>Marketing</p>
+          <h4 class="project-text">Online Courses</h4>
+          <p class="position-name">Marketing</p>
         </li>
       </ul>
     </section>
     <!-- row 3 -->
 
-    <section>
-      <ul>
+    <section class="project3">
+      <ul class="project3-position">
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
               src="./images/row3/img.jpg"
               alt="Instagram Stories Concept"
@@ -158,11 +168,11 @@
               height="300"
             />
           </a>
-          <h4>Instagram Stories Concept</h4>
-          <p>Design</p>
+          <h4 class="project-text">Instagram Stories Concept</h4>
+          <p class="position-name">Design</p>
         </li>
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
               src="./images/row3/img1.jpg"
               alt="Organic Food"
@@ -170,11 +180,11 @@
               height="300"
             />
           </a>
-          <h4>Organic Food</h4>
-          <p>Web Site</p>
+          <h4 class="project-text">Organic Food</h4>
+          <p class="position-name">Web Site</p>
         </li>
         <li>
-          <a href="#">
+          <a class="ptoject-img" href="#">
             <img
               src="./images/row3/img2.jpg"
               alt="Fresh Coffee"
@@ -182,15 +192,17 @@
               height="300"
             />
           </a>
-          <h4>Fresh Coffee</h4>
-          <p>Web Site</p>
+          <h4 class="project-text">Fresh Coffee</h4>
+          <p class="position-name">Web Site</p>
         </li>
       </ul>
     </section>
     <!-- footer -->
 
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html"
+        >Web<span class="logo2">Studio</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
