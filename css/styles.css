@@ -8,10 +8,9 @@
   --ocean: #404bbf;
 }
 body {
-  font-family: 'roboto', sans-serif;
-  color: var(--navyblue);
+  font-family: 'Roboto', sans-serif;
+  color: var(--slat);
   background-color: #fff;
-  width: 1440px;
   height: 2592px;
 }
 
@@ -25,8 +24,8 @@ body {
 a {
   text-decoration-line: none;
 }
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 /* logo */
@@ -37,25 +36,37 @@ ul {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 44px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
 }
-.logo2 {
+.logo-two {
   color: var(--navyblue);
   font-family: Raleway;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 71px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+}
+.list-position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 .link {
+  text-decoration: none;
   color: var(--navyblue);
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.32px;
 }
-.link:hover,
-.link:focus {
+.list-position:hover,
+.list-position:focus {
   color: var(--ocean);
 }
 /* address */
@@ -63,10 +74,11 @@ ul {
   color: var(--slate);
   font-style: normal;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.address-link:hover,
-.address-link:focus {
-  color: var(--iris);
+.link:hover,
+.link:focus {
+  color: var(--ocean);
 }
 /* buttons  */
 .button-name {
@@ -79,10 +91,7 @@ ul {
   line-height: 1.5;
 }
 .button-top {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 4px;
   border: 1px solid var(--cornflower);
   background: var(--cloud);
 }
@@ -114,51 +123,49 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 44px;
 }
 /* index.html */
 
 /* main */
 
-.title-h1 {
-  width: 496px;
+.title-one {
   color: var(--white);
-  text-align: right;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .button-main {
-  display: inline-flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.button-main:hover {
+.button-main:hover,
+.botton-main:focus {
   color: var(--white);
-  border-radius: 4px;
   background: var(--ocean);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Effective Solutions */
 
 .effective {
-  width: 264px;
   color: var(--navyblue);
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .effective-p {
-  width: 264px;
   color: var(--slate);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*  What are we doing */
@@ -167,7 +174,9 @@ ul {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .adventages-img {
   border: 1px solid var(--cornflower);
@@ -181,24 +190,24 @@ ul {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-img {
-  border-radius: 0px 0px 4px 4px;
-  background: var(--white);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background-color: var(--white);
 }
 .worker {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .worker-position {
   color: var(--slate);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   background: var(--navyblue);
@@ -207,14 +216,16 @@ ul {
 .footer-description {
   color: var(--cloud);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo-footer {
-  width: 71px;
-  height: 21px;
   justify-content: center;
   color: var(--cloud);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
 }
