@@ -95,14 +95,16 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
 }
 .button-name:hover {
   color: var(--white);
   background: var(--ocean);
-  cursor: pointer;
 }
 .buttons-name.button:focus {
-  color: var(--ocean);
+  color: var(--white);
+  background-color: var(--ocean);
 }
 /* project  */
 .project-text {
@@ -111,11 +113,14 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .position-name {
   color: var(--slate);
   font-style: normal;
   line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .link.logo {
   color: var(--iris);
