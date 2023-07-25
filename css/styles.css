@@ -29,7 +29,7 @@ a {
 
 /* logo */
 
-.nav-link .logo {
+.logo {
   color: var(--iris);
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -38,13 +38,12 @@ a {
   font-weight: 800;
   line-height: 1.17;
 }
-.nav-link .logo-two {
+.logo-two {
   color: var(--navyblue);
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   line-height: 1.17;
 }
@@ -147,7 +146,7 @@ a {
 .button-main:hover,
 .botton-main:focus {
   color: var(--white);
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* Effective Solutions */
