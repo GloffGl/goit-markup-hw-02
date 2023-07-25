@@ -74,6 +74,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.address-top {
+  font-style: normal;
+}
 .address-link:hover,
 .address-link:focus {
   color: var(--ocean);
@@ -99,7 +102,7 @@ a {
   cursor: pointer;
 }
 .buttons-name.button:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 /* project  */
 .project-text {
@@ -219,19 +222,22 @@ a {
 .logo-footer-two {
   justify-content: center;
   color: var(--cloud);
-  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   line-height: 1.7;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-footer-one {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
