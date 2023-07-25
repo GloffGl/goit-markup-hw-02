@@ -28,7 +28,8 @@ a {
 }
 
 /* logo */
-.logo {
+
+.nav-link .logo {
   color: var(--iris);
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -37,7 +38,7 @@ a {
   font-weight: 800;
   line-height: 1.17;
 }
-.logo-two {
+.nav-link .logo-two {
   color: var(--navyblue);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -56,11 +57,6 @@ a {
 }
 .link {
   text-decoration: none;
-  color: var(--navyblue);
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 0.32px;
-  line-height: 1.5;
 }
 .list-position:hover,
 .list-position:focus {
@@ -68,10 +64,10 @@ a {
 }
 /* address */
 .address-link {
-  color: var(--slate);
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 .address-top {
   font-style: normal;
