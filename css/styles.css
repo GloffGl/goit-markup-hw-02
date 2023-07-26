@@ -14,7 +14,7 @@ body {
 }
 
 /* portfolio */
-.header {
+header {
   background: var(--white);
 }
 .section-main {
@@ -144,7 +144,7 @@ a {
   cursor: pointer;
 }
 .button-main:hover,
-.botton-main:focus {
+.button-main:focus {
   color: var(--white);
   background-color: var(--ocean, #404bbf);
 }
