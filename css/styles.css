@@ -61,14 +61,14 @@ header {
   color: var(--ocean);
 }
 /* Header address */
-.address {
+.address-link {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--ocean);
 }
 
