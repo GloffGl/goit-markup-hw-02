@@ -61,14 +61,14 @@ header {
   color: var(--ocean);
 }
 /* Header address */
-.address-link {
+.address {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.address-link:hover,
-.address-link:focus {
+.address:hover,
+.address:focus {
   color: var(--ocean);
 }
 
@@ -197,7 +197,7 @@ header {
 /* Footer */
 
 .footer {
-  background: var(--navyblue);
+  background-color: var(--navyblue);
 }
 
 .logo-footer-one {
