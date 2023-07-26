@@ -196,7 +196,7 @@ header {
 
 /* Footer */
 
-footer {
+.footer {
   background: var(--navyblue);
 }
 
