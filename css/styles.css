@@ -71,6 +71,9 @@ header {
 .address-link:focus {
   color: var(--ocean);
 }
+address {
+  font-style: normal;
+}
 
 /* buttons  */
 
